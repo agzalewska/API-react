@@ -47,21 +47,6 @@ exports.handler = async (event, context, cb) => {
       } = product.fields;
       const image = images[0].url;
 
-      // const { id } = product;
-      // const {
-      //   name,
-      //   images,
-      //   price,
-      //   company,
-      //   stock,
-      //   category,
-      //   shipping,
-      //   description,
-      //   colors,
-      //   reviews,
-      //   stars,
-      // } = product.fields;
-      // const image = images[0].url;
       return {
         id,
         name,
